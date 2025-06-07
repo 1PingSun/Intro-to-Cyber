@@ -1,0 +1,16 @@
+{
+  "name": "intro-to-cyber",
+  "version": "1.0.0",
+  "description": "A Document for cyber beginners",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "deploy": "vitepress build docs && git add docs/.vitepress/dist && git commit -m 'Deploy to GitHub Pages' && git push origin gh-pages"
+  },
+  "dependencies": {
+    "vitepress": "^0.21.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}
